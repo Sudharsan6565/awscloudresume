@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<!--
+   Dimension by HTML5 UP
+   html5up.net | @ajlkn
+   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>SUDHARSAN V</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- Original Dimension CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Minimal Custom Overrides -->
+    <style>
+      /* 1) Remove leftover Dimension overlays */
+      #header:before,
+      #wrapper:before,
+      .content:before,
+      #bg:before {
+        display: none !important;
+        background: none !important;
+      }
+
+      /* 2) Nebula background */
+      body {
+        background: url('images/nebula-bg.webp') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      /* 3) Dark Overlay for better text contrast */
+      .overlay {
+        position: fixed;
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      /* 4) Strong text shadow for better legibility */
+      body, h1, h2, h3, h4, h5, h6, p, a,
+      nav ul li a,
+      .project-card h3, .project-card p {
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+      }
+
+      /* 5) AWS Badges Horizontal Autoscroll */
+      .aws-badges-slider {
+        overflow: hidden;
+        width: 100%;
+        margin: 1em 0;
+        white-space: nowrap;
+      }
+      .aws-badges-slide {
+        display: inline-flex;
+        animation: awsBadgeScroll 15s linear infinite;
+      }
+      .aws-badges-slide img {
+        width: 100px;
+        margin: 0 10px;
+      }
+      @keyframes awsBadgeScroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+
+      /* 6) CTA Section */
+      .cta-center {
+        text-align: center;
+        margin: 2em 0;
+      }
+      .cta-center h3 {
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+      }
+      .cta-center a.button {
+        margin-top: 1.5rem;
+      }
+
+      /* 7) Projects: horizontal scroller */
+      .projects-carousel {
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 2em 0;
+      }
+      .projects-carousel-track {
+        display: inline-flex;
+        animation: projectsScroll 20s linear infinite;
+      }
+      @keyframes projectsScroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-40%); }
+      }
+      .project-card {
+        display: inline-block;
+        width: 220px;
+        background: rgba(255, 255, 255, 0.07);
+        border-radius: 6px;
+        padding: 1em;
+        margin: 0.75em;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-sizing: border-box;
+        white-space: normal;
+        word-wrap: break-word;
+      }
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+
+  <body class="is-preload">
+    <!-- Dark overlay -->
+    <div class="overlay"></div>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="logo" style="width: 5.5rem; height: 5.5rem; border: 1px solid #ffffff; border-radius: 50%; overflow: hidden;">
+          <img src="images/sudhu.jpeg" alt="Sudharsan V" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>SUDHARSAN V</h1>
+            <p id="animated-titles">CLOUD TECHNOLOGIST</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- AWS Badges Slider -->
+        <div class="aws-badges-slider">
+          <div class="aws-badges-slide">
+            <img src="images/cloud101.png" alt="Cloud101" />
+            <img src="images/cloudops.png" alt="CloudOps" />
+            <img src="images/cloudquest.png" alt="CloudQuest" />
+            <img src="images/compute.png" alt="Compute" />
+            <img src="images/databases.png" alt="Databases" />
+            <img src="images/essentials.png" alt="Essentials" />
+            <img src="images/networking.png" alt="Networking" />
+            <img src="images/security.png" alt="Security" />
+            <img src="images/serverless.png" alt="Serverless" />
+            <img src="images/storage.png" alt="Storage" />
+          </div>
+        </div>
+      </header>
+
+      <!-- CTA Section -->
+      <div class="cta-center">
+        <h3>Grow & Scale Your Business with AWS Cloud & AI</h3>
+        <a href="https://cal.com/sudharsan17" class="button primary" target="_blank">Book Your Call</a>
+      </div>
+
+      <!-- Main Content -->
+      <div id="main">
+        <!-- About Me -->
+        <article id="about">
+          <h2 class="major">About Me</h2>
+          <p>
+            Highly experienced Cloud Technologist with a deep passion for AWS solutions,
+            AI integrations, and infrastructure automation. Adept at designing scalable
+            architectures to drive business growth and reduce operational overhead.
+          </p>
+        </article>
+
+        <!-- Skills -->
+        <article id="skills">
+          <h2 class="major">Skills</h2>
+          <ul>
+            <li><strong>Cloud:</strong> AWS</li>
+            <li><strong>Operating System:</strong> Linux (Primary)</li>
+            <li><strong>Programming:</strong> Python (Basic)</li>
+            <li><strong>DevOps & Infrastructure as Code:</strong> Kubernetes, Terraform, Ansible, CI/CD</li>
+            <li><strong>AI & Automation:</strong> OpenAI, Claude, n8n, Make</li>
+            <li><strong>Database:</strong> DynamoDB</li>
+            <li><strong>Automation:</strong> n8n, Make, <strong>AI AGENTS</strong></li>
+          </ul>
+        </article>
+
+        <!-- Projects -->
+        <article id="projects">
+          <h2 class="major">Projects</h2>
+          <div class="projects-carousel">
+            <div class="projects-carousel-track">
+              <!-- Project 1: Retell AI -->
+              <a class="project-card" href="#" target="_blank">
+                <h3>Retell AI (Voice AI Agent)</h3>
+                <p>
+                  Advanced inbound/outbound caller AI leveraging OpenAI & Claude.
+                  Real-time speech recognition, dynamic responses, 
+                  and streamlined call management.
+                </p>
+              </a>
+              <!-- Project 2: Android & Windows Calculator -->
+              <a class="project-card" href="#" target="_blank">
+                <h3>Android & Windows Calculator</h3>
+                <p>
+                  Cross-platform calculator built with Python & Kivy for a sleek UI
+                  and reliable arithmetic operations across devices.
+                </p>
+              </a>
+              <!-- Project 3: AWS Cloud Resume Challenge -->
+              <a class="project-card" href="#" target="_blank">
+                <h3>AWS Cloud Resume Challenge</h3>
+                <p>
+                  Full-stack AWS site featuring S3 static hosting,
+                  DynamoDB visitor counts, Lambda & API Gateway for dynamic updates,
+                  and CloudFront distribution.
+                </p>
+              </a>
+              <!-- Project 4: AWS Expense Tracker -->
+              <a class="project-card" href="#" target="_blank">
+                <h3>AWS Expense Tracker</h3>
+                <p>
+                  Real-time cost monitoring via AWS Budgets & Cost Explorer.
+                  Tracks usage, enforces budget limits,
+                  and helps reduce overhead with actionable insights.
+                </p>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Certifications -->
+        <article id="certifications">
+          <h2 class="major">Certifications</h2>
+          <p>Below are 12 PDF certificates. Click any link to view them in a new tab:</p>
+          <ul>
+            <li><a href="assets/certificates/12996_3_7188542_1742232149_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #12996</a></li>
+            <li><a href="assets/certificates/12471_3_7188542_1742226679_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #12471</a></li>
+            <li><a href="assets/certificates/199_3_7188542_1742222566_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #199</a></li>
+            <li><a href="assets/certificates/18101_5_7188542_1742219565_AWS Skill Builder Course Completion Certificate.pdf" target="_blank">AWS Skill Builder #18101</a></li>
+            <li><a href="assets/certificates/16434_5_7188542_1742216710_AWS Skill Builder Course Completion Certificate.pdf" target="_blank">AWS Skill Builder #16434</a></li>
+            <li><a href="assets/certificates/15009_3_7188542_1742060147_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #15009</a></li>
+            <li><a href="assets/certificates/1851_3_7188542_1741927060_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #1851</a></li>
+            <li><a href="assets/certificates/15782_3_7188542_1741856790_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #15782</a></li>
+            <li><a href="assets/certificates/129_3_7188542_1741852126_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #129</a></li>
+            <li><a href="assets/certificates/1575_3_7188542_1741851825_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #1575</a></li>
+            <li><a href="assets/certificates/156_3_7188542_1741794241_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #156</a></li>
+            <li><a href="assets/certificates/134_3_7188542_1741790161_AWS Course Completion Certificate.pdf" target="_blank">AWS Course Completion #134</a></li>
+          </ul>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <p>
+            Interested in collaborating or learning more about how I can help your cloud journey?
+            Feel free to reach out:
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="images/Sudharsan V, Cloud Technologist — Resume.co.pdf" class="button" download>Download Resume</a>
+            </li>
+            <li>
+              <a href="https://www.credly.com/users/sudharsan-v.6ae19821" class="button">Credly Profile</a>
+            </li>
+            <li>
+              <a href="https://cal.com/sudharsan17" class="button primary" target="_blank">Book a Call</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p>&copy; 2025 SUDHARSAN V. Visitor count: <span id="visitor-count">Loading...</span></p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Dimension + Minimal Custom JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      // 1) Animated Titles
+      const titles = [
+        "CLOUD TECHNOLOGIST",
+        "CHIEF TECHNOLOGY OFFICER (CTO)",
+        "GROWTH CONSULTANT"
+      ];
+      let index = 0;
+      const titleEl = document.getElementById("animated-titles");
+      setInterval(() => {
+        titleEl.textContent = titles[index];
+        index = (index + 1) % titles.length;
+      }, 2500);
+
+      // 2) Visitor Counter using AWS API Gateway endpoint
+      fetch("https://35rl65joie.execute-api.us-east-1.amazonaws.com/visitorcounter")
+        .then(response => response.json())
+        .then(data => {
+          console.log("Visitor counter response:", data);
+          document.getElementById('visitor-count').innerText = data.count;
+        })
+        .catch(error => console.error("Visitor counter error:", error));
+    </script>
+  </body>
+</html>
