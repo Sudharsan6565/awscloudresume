@@ -58,3 +58,17 @@ Live site → [https://sudharsan17.online](https://sudharsan17.online)
 ├── index.html
 ├── GUIDENCE.txt    # Full AWS Build Walkthrough
 └
+🤯 Final Thoughts
+
+They said:
+
+    "He's just a Linux guy."
+
+They forgot to check if I was also a Cloud King 👑
+This resume isn't a page — it's a statement.
+Let it echo in the chambers of my haters’ minds...
+🔗 Connect with Me
+
+    🔗 https://sudharsan17.online
+    💼 LinkedIn - Sudharsan V
+    📞 Book a call
